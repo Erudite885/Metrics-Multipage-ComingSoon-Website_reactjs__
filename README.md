@@ -6,6 +6,9 @@ and deployed on Netlify.
 it can be assessed via:
 https://multi-page-metrics.netlify.app
 
+
+![Muti-Page-Metrics](https://user-images.githubusercontent.com/79880772/171992897-c0cdefff-3389-47d5-ae2d-2ae6ed2c5ebb.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
