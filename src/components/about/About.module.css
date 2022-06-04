@@ -1,0 +1,453 @@
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+   
+    /* margin-top: 5px; */
+}
+
+.heroBox {
+    position: absolute;
+     backdrop-filter: blur(30px);
+    background-color: rgba(255, 34, 237, 0.925);
+    opacity: 0.45;
+    width: 100%;
+    height: 80vh;
+}
+
+.intro {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: #fff;
+    margin: 20px 0;
+    /* margin-top: 20%; */
+}
+
+.intro hr {
+    width: 50px;
+}
+
+.intro p {
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.saas {
+    width: 100%;
+    position: relative;
+    font-size: 1.545rem;
+    margin: 60px auto;
+
+    /* align-self: center; */
+    /* margin: auto; */
+    padding: 0 50px; 
+    /* margin-top: 60px; */
+    color: rgb(250, 250, 250);
+}
+
+.tool {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tool p {
+    position: relative;
+    bottom: 200px;
+    line-height: 1.5;
+    margin: auto;
+    /* padding: 0 50px; */
+    color: #fff;
+    width: 85%;
+}
+
+.mainText {
+    /* max-width: 100%; */
+    /* font-size: 1.5rem; */
+    /* margin: -100px 0 80px 45px; */
+    /* color: #fff; */
+    /* line-height: 1.7; */
+    margin: auto;
+}
+
+.mainText p {
+    color: #fff;
+    line-height: 1.7;
+    font-size: 1.25rem;
+    margin: -100px 20px 50px 20px;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* margin: auto; */
+}
+
+.whyContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.why {
+    /* margin-bottom: 15px; */
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+
+
+/* .why {
+   
+} */
+
+.whyTextContenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 80%; */
+}
+
+.whyTextContenter p {
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.dotted {
+    display: none;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width:20%;
+}
+
+.dots span {
+    letter-spacing: 18px;
+    font-size: 12px;
+}
+
+.why hr, .grow hr {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.why hr::before, .grow hr::before {
+    position: absolute;
+    top: -20;
+    left: 10px;
+    color: #fff;
+}
+
+.why hr::before {
+    content: "01";
+}
+
+.growContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* justify-content: center; */
+    /* backdrop-filter: blur(30px); */
+}
+
+/* .grow {
+   
+} */
+
+.grow {
+    /* margin-bottom: 15px; */
+    margin-top: 25px;
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+.grow hr::before {
+    content: "02";
+}
+
+.growText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 80%; */
+}
+
+.why h4, .grow h4 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.whyText, .growText{
+    line-height: 1.9;
+    color: #fff;
+}
+
+.growTexFirst, .growTexSecond {
+    /* padding: 0 12px; */
+    /* margin: 20px; */
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* backdrop-filter: blur(10px); */
+}
+
+.questions h2 {
+    font-size: 1.58rem;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.questions p {
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 0 40px;
+    color: #fff;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.questions a {
+    display: flex;
+    align-items: center;
+    color: rgb(226, 69, 69);
+    text-decoration: none;
+    /* margin-top: 140px; */
+    font-size: 1.195rem;
+}
+
+.questions a:hover, 
+.questions a:focus, 
+.questions a:active {
+    color: #8B0DD9;
+}
+
+.contact svg {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 425px) {
+.mainText p {
+    margin: -50px 30px 50px 30px;
+}
+
+.heroBox {
+    width: 40%;
+}
+
+.heroBox2 {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    opacity: 0.45;
+    /* top: -2%; */
+}
+
+}
+
+@media (min-width: 768px) {
+
+.heroBox {
+    width: 25%;
+    height: 30%;
+    top: 8%;
+    left: 20%;
+}
+
+.heroBox2 {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* backdrop-filter: blur(25px); */
+    /* opacity: 0.45; */
+    /* top: -2%; */
+}
+
+.intro {
+    margin: 80px 0;
+    padding: 0 180px;
+}
+
+.saas {
+    margin: 0px;
+    padding: 0 250px;
+}
+
+.tool p {
+    width: 55%;
+    left: 20%;
+    /* bottom: 275px; */
+    /* top: -50%; */
+}
+
+.mainText p {
+    /* width: 45%; */
+    margin: -50px 90px 50px 90px;
+}
+
+.why hr, .grow hr {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.whyTextContenter p {
+    margin: 50px 0;
+    padding: 0 80px;
+}
+
+.growTexFirst, .growTexSecond {
+    margin: 50px 0;
+    padding: 0 80px;
+}
+
+.questions {
+    align-items: center;
+}
+
+.questions p {
+    margin: 50px 0;
+    padding: 0 80px;
+}
+
+
+}
+
+@media (min-width: 1024px) {
+
+    .heroBox {
+        left: 15%;
+    }
+
+    .heroBox2 {
+        max-width: 60%;
+        height: 75%;
+    }
+
+    .intro {
+    /* margin: 80px 0; */
+    padding: 0 250px;
+    }    
+
+    .saas {
+        padding: 0 350px;
+        font-size: 2.358rem;
+    }
+
+    .tool p {
+        bottom: 150px;
+        line-height: 1.8;
+        margin: auto;
+    }
+
+    .mainText p {
+        margin: -80px 180px 100px 180px;
+    }
+
+    .fact {
+        flex-direction: row;
+    }
+
+    .dotted {
+        display: flex;
+        /* margin: 0 ; */
+        width: 100%;
+    }
+
+    .why hr::before, .grow hr::before {
+        /* left: 426px; */
+        /* content: '', */
+        display: none;
+    }
+
+    .questions {
+        position: relative;
+        align-items: flex-start;
+        margin: 50px 0 0 0;
+        max-width:100%;
+    }
+
+    .questBox2 {
+        position: absolute;
+        width: 100%;
+        height:130%;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(25px);
+        opacity: 0.45;
+    }
+
+    .questBox {
+        position: absolute;
+        backdrop-filter: blur(30px);
+        background-color: rgba(148, 114, 4, 0.863);
+        opacity: 0.45;
+        width: 25%;
+        height: 60%;
+        top: 37%;
+        right: 4%;
+        border-radius: 5px;
+    }
+
+    .questions p {
+        padding: 0px;
+        width: 70%;
+        margin: 20px 0 20px 0;
+        /* margin-right: 2px; */
+    }
+
+    .contact {
+        margin-top: 0;
+        z-index: 1;
+    }
+
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1705px) {
+}
+
+@media (min-width: 1888px) {
+
+}
+
+@media (min-width: 2230px) {
+
+}
+
+
+

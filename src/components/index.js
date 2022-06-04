@@ -1,0 +1,11 @@
+export { default as Navigation } from './navigation/Navigation';
+export { default as Footer } from './footer/Footer';
+export { default as Info } from './info/Info';
+export { default as About } from './about/About';
+export { default as Contact } from './contact/Contact';
+export { default as Blog } from './blog/Blog';
+export { default as Posts } from './blog/Posts.jsx';
+export { default as Post } from './blog/Post';
+// export { default as validation } from '.validation/validation';
+export { default as Terms } from '../pages/terms/Terms';
+export { default as Privacy } from '../pages/privacy/Privacy';

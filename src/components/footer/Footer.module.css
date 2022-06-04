@@ -1,0 +1,36 @@
+
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin: 280px auto 0 auto;
+}
+
+.socialMedia svg {
+    padding: 10px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.terms a:hover, 
+.terms a:focus, 
+.terms a:active {
+    color: #8B0DD9;
+}
+
+.copyright p {
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+ 

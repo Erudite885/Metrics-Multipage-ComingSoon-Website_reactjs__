@@ -1,0 +1,165 @@
+
+.container {
+    background-color: rgb(1, 0, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 20px 0;
+   
+}
+
+.header h3 {
+    font-size: 0.88rem;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    font-size: 0.8rem;
+    color: #fff;
+} 
+
+ input {
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.message {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 45px 65px 0; 
+}
+
+.send {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0;
+    color: #fff;
+    background-color: #00f;
+}
+
+@media (min-width: 425px) {
+    .container {
+        margin: 20px;
+    }
+    
+    .header h3 {
+        font-size: 0.98rem;
+    }
+    
+    .formControl {
+        margin: 10px 50px 0px 0px;
+    }
+    
+    label {
+        padding: 12px 8px 15px 0px;
+        font-size: 0.852rem;
+    } 
+    
+     input {
+        padding: 15px;
+        border-radius: 10px;
+        width: 250px;
+    }
+    
+    .message {
+        border-radius: 10px;
+        font-size: 0.852rem;
+        width: 250px;
+        padding: 15px 0 85px 15px; 
+    }
+    
+    .send {
+        padding: 15px;
+        border-radius: 30px;
+        margin: 25px 0;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: auto auto auto 260px;
+    }
+    
+    .header h3 {
+        font-size: 1.2rem;
+    }
+    
+    label {
+        font-size: 0.882rem;
+    } 
+    
+     input {
+        padding: 14px;
+        border-radius: 15px;
+        width: 280px;
+    }
+    
+    .message {
+        border-radius: 15px;
+        font-size: 0.862rem;
+        width: 280px;
+        padding: 15px 0 85px 12px; 
+    }
+    
+    .send {
+        padding: 15px;
+        border-radius: 30px;
+        margin: 25px 0;
+    }
+
+
+}
+
+
+@media (min-width: 1024px) {
+    .container {
+        margin: auto auto auto 440px;
+    }
+    
+    .header h3 {
+        font-size: 1.5rem;
+    }
+    
+    label {
+        font-size: 1rem;
+    } 
+    
+     input {
+        border-radius: 10px;
+        width: 350px;
+    }
+    
+    .message {
+        border-radius: 10px;
+        font-size: 0.832rem;
+        width: 350px;
+    }
+    
+    .send {
+        border-radius: 25px;
+    }
+
+}
+

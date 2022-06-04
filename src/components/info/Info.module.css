@@ -1,0 +1,217 @@
+.info {
+    width: 40%;
+    margin: auto;
+}
+
+.info p {
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    line-height: 1.9;
+}
+
+.note {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+section div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    margin: 10px;
+    color: #000;
+    height: 100px;
+    width: 90px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .dateTime{
+    font-weight: 500;
+    font-size: 2.188rem;
+} 
+
+ .dateTimeLabel {
+    font-size: 14px;
+} 
+
+.form {
+    margin-top: 30px;
+}
+
+.formInput {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form input[type='text'] {
+    border: none;
+    outline: none;
+    width: 30%;
+    background-color: transparent;
+    color: #ccc;
+    border-bottom: 2px solid rgba(186, 156, 186, 0.514);
+    margin: 5px 20px;
+    text-indent: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.submit input[type='email'] {
+    height: 35px;
+    outline: none;
+    border-radius: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 15px;
+    border: 1px solid rgb(84, 77, 77);
+
+}
+
+.submit button {
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color: #00f;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+@media (min-width: 320px) {
+    .info {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .info p {
+        margin: 50px;
+        line-height: 1.5;
+    }
+    
+    .note {
+        font-size: 2rem;
+    }
+    
+    
+    .card {
+        margin: 5px;
+        height: 80px;
+        width: 75px;
+        border-radius: 8px;
+    }
+    
+    .dateTimeLabel {
+        font-size: 12px;
+    } 
+    
+    .form {
+        margin-top: 40px;
+    }
+    
+    
+    .form input[type='text'] {
+        border-bottom: 1px solid rgba(186, 156, 186, 0.514);
+        margin: 10px 25px;
+        text-indent: 5px;
+        font-size: 0.68rem;
+    }
+       
+}
+
+@media (min-width: 425px) {
+
+    .submit input[type='email'] {
+        margin-top: 20px;
+        font-size: 12px;
+       
+    }
+
+
+}
+
+@media (min-width: 760px) {
+
+    .form {
+        width: 80%;
+        margin: auto;
+    }
+
+    .form input[type='text'] {
+        margin: 30px 20px;
+    }
+    
+    .submit {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+     .submit button {
+         position: relative;
+        right: 30px;
+    } 
+    
+}
+
+@media (min-width: 1024px) {
+  
+    .info {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .info p {
+        margin: 50px 70px;
+        
+    }
+    
+    .note {
+        font-size: 1.8rem;
+    }
+    
+    
+    .card {
+        margin: 10px;
+        height: 90px;
+        width: 85px;
+        border-radius: 7px;
+    }
+    
+    .form {
+        margin-top: 45px;
+    }
+    
+    .form input[type='text'] {
+        margin: 10px;
+        font-size: 0.75rem;
+    }
+      
+   
+}

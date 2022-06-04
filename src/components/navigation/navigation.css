@@ -1,0 +1,137 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/src/assets/images/bg6.jpg') no-repeat center, url('/src/assets/images/Path1.svg') fixed; 
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+
+a:hover,
+a:active {
+    color: #8B0DD9;
+}
+
+.navigation {
+    padding: 40px;
+    margin: 5% auto;
+}
+
+.navigation .container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-lists {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list_item {
+    margin: 0 15px;
+}
+
+.contact-us {
+    background-color: #00f;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+@media (min-width: 320px) {
+    a {
+        font-size: 0.6rem;
+        }
+        
+    .navigation {
+        padding: 15px;
+    }
+    
+    .nav-list_item {
+        margin: 0 4px;
+    }
+    
+    .contact-us {
+        padding: 6px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    
+a {
+    font-size: 1rem;
+    }
+        
+.navigation {
+        padding: 25px;
+    }
+    
+.nav-list_item {
+        margin: 0 15px;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    a {
+        font-size: 1.5rem;
+        }
+            
+    .navigation {
+            padding: 30px;
+        }
+        
+    .contact-us {
+        padding: 15px;
+        border-radius: 50px;
+        }
+
+    .navigation .container {
+        margin: 0 10%;       
+}
+    
+}
+
+@media (min-width: 2000px) {
+
+    a {
+        font-size: 1.8rem;
+        }
+            
+    .navigation {
+            padding: 0px;
+            margin: 4% auto;
+        }
+        
+    .contact-us {
+        padding: 15px;
+        border-radius: 50px;
+        }
+
+    .navigation .container {
+        margin: 0 15%;       
+}
+    
+}
+

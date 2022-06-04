@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.headerContainer {
+    margin: 35px 20px 20px 20px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.header {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.headText {
+    color: #fff;
+    font-size: 12px;
+}
+
+input[type='search']{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 0 0 0;
+    padding: 12px;
+    width: 80%;
+}
+
+.articleContainer {
+    margin: 20px auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(2, 37, 58)
+}
+
+.articleImage {
+  position: relative;
+}
+ 
+.articleImage img {
+  border-radius: 4px 4px 0 0;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+
+.articleTitle {
+    margin: 10px 20px 10px 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+}
+
+.articleText {
+    font-size: 12px;
+    margin: 10px 20px;
+    color:rgba(255, 255, 255, 0.514);
+}
+
+.articleMore {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.781);
+    margin: 40px 20px;
+}
+
+.articleMore:hover,
+.articleMore:active,
+.articleMore:focus {
+   color: #8B0DD9;
+}
+
+.articleMoreRule {
+    width: 50px;
+    margin: 0 0 20px 0;
+}
+
+.articleMoreText {
+    margin: 0 0 20px 5px;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    
+    .headerContainer {
+        margin: 35px 20px 20px 20px;
+    }
+    
+    .textContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        margin: 20px;
+    }
+    
+    .header {
+        font-size: 1.65rem;
+    }
+    
+    .headText {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: auto 100px auto auto;
+    }
+    
+    input[type='search']{
+        border-radius: 35px;
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .articleContainer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    .article {
+        width: 30%;
+        align-items: flex-start !important;
+    }
+
+    .articleMoreText {
+        font-size: 12px;
+    }
+
+}
